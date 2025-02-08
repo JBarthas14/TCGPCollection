@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cdf084bf6e7774c9aef33e0c6c1a18, type: 3}
+  m_Name: Scalpion
+  m_EditorClassIdentifier: 
+  id: 179
+  sprite: {fileID: -2755129652009273127, guid: 3a44bec314ba6a04abc5e51bbd7350d6, type: 3}
+  rarity: 0

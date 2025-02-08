@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cdf084bf6e7774c9aef33e0c6c1a18, type: 3}
+  m_Name: Miaouss246
+  m_EditorClassIdentifier: 
+  id: 246
+  sprite: {fileID: 8279502160683866344, guid: c3f0db7bbcda7ce4c83b1532d1c9201a, type: 3}
+  rarity: 4
+  booster: {fileID: 11400000, guid: 126f20c1c978b724483caa9e279795aa, type: 2}
+  extension: {fileID: 0}

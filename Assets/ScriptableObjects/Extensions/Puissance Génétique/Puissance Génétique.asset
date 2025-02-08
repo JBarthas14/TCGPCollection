@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78224869b7397494c9ff3e2539e7d69e, type: 3}
+  m_Name: "Puissance G\xE9n\xE9tique"
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 7244996912277724170, guid: 6a3d6a5a364d1a547a10fff6c1fcbaa5, type: 3}
+  boosters:
+  - {fileID: 11400000, guid: 47a882707408689498567948b7674d6a, type: 2}
+  - {fileID: 11400000, guid: 7b144aeade1ea2544b6664ec133cfb98, type: 2}
+  - {fileID: 11400000, guid: 126f20c1c978b724483caa9e279795aa, type: 2}
+  cartesCommunes:
+  - {fileID: 11400000, guid: 116030091c5a76c45897d2de76bef355, type: 2}
+  - {fileID: 11400000, guid: 4c19c0049272c3449b84d09efeda3720, type: 2}
+  - {fileID: 11400000, guid: 3136c7acaf22f6048aa6bc0ae85daa32, type: 2}
+  - {fileID: 11400000, guid: f91b0c50129c1ed4ebbbda5bc3e3f43a, type: 2}
+  - {fileID: 11400000, guid: faad0d58b36b29c4aa82532032b8f76a, type: 2}
+  - {fileID: 11400000, guid: ab103c3bda5b57c419edd9189b138284, type: 2}
+  - {fileID: 11400000, guid: 2c8a13a7ca8da2b4d857f2c9afbe8098, type: 2}
+  - {fileID: 11400000, guid: b494bf33352459d4d8e700c79a136a22, type: 2}
+  - {fileID: 11400000, guid: 162c89219d7dac64ab01b7e8ee292f31, type: 2}
+  - {fileID: 11400000, guid: 77fa46633a7def04aa2bbe9756816716, type: 2}
+  - {fileID: 11400000, guid: 7cad4b8c5e3ab0c4eb4675a14c8b07c3, type: 2}
+  - {fileID: 11400000, guid: f0c62f4c1d0be664189b72b83bd464cf, type: 2}
+  - {fileID: 11400000, guid: ce2bfdfaa2f792f44915eccd2720e2db, type: 2}
+  - {fileID: 11400000, guid: 9d1773deebbfbac4ab3238712bc806c6, type: 2}
+  - {fileID: 11400000, guid: 4cf5e7d7dc721574fb21ea64ba65ef1e, type: 2}
+  - {fileID: 11400000, guid: 35c1e6a79b98eac48be523cb42d7d41b, type: 2}
+  - {fileID: 11400000, guid: 8e11feee232f989459a3f71a954ecc75, type: 2}
+  - {fileID: 11400000, guid: 6b5f849be8d4de447944c17d7d196464, type: 2}
+  - {fileID: 11400000, guid: 5fff8c87379e03f44b8045815290149f, type: 2}
+  - {fileID: 11400000, guid: 5fb763e7e1256a744b2076d84dfb7dfb, type: 2}
+  - {fileID: 11400000, guid: 023fd03544954b847a27e90db332c322, type: 2}
+  - {fileID: 11400000, guid: d0499a2b85e4ea04a8f8cd1d74cfb993, type: 2}
+  - {fileID: 11400000, guid: fc99697ef0ec1094a8ccf73a03aba09a, type: 2}
+  - {fileID: 11400000, guid: 52d6d9541cd450447867345877d2523d, type: 2}
+  - {fileID: 11400000, guid: fee884a32ce4d6c40ae96ccc2957afbe, type: 2}
+  - {fileID: 11400000, guid: 3c7b06f883da1ee4c8ab54b2bf7b2c2e, type: 2}
+  - {fileID: 11400000, guid: 1af4701471a920743963cb4955a70158, type: 2}
+  - {fileID: 11400000, guid: 60ef69451e16d744e85d4c78cb5ce193, type: 2}
+  - {fileID: 11400000, guid: 7aab8a89f53b7e64099663a9581cd848, type: 2}
+  - {fileID: 11400000, guid: 2b8d0b896fb0e51439925dcc6aea22f0, type: 2}
+  - {fileID: 11400000, guid: 2e631cc84b5582d4e9a836f1093e327f, type: 2}
+  - {fileID: 11400000, guid: 60467e3cfe52dc74b8217664f845aa67, type: 2}
+  - {fileID: 11400000, guid: e703db565d03faf45a4a06de92199858, type: 2}
+  - {fileID: 11400000, guid: 9795ec96a6925f741942215d1aa10820, type: 2}
+  - {fileID: 11400000, guid: b4eae0c0c9d7ce043ba51cd2a83bb6a5, type: 2}
+  - {fileID: 11400000, guid: 2386798c911af034ca44496c17e94ea4, type: 2}
+  - {fileID: 11400000, guid: f722c225e9c08394f96750e12b234bd5, type: 2}
+  - {fileID: 11400000, guid: 42746eed22ae2814ca37d0c1a8fed9d2, type: 2}
+  - {fileID: 11400000, guid: 7cdb352af72ad344f81127c539c2b208, type: 2}
+  - {fileID: 11400000, guid: b92411c6b9170d94d8373d2d608b06d8, type: 2}
+  - {fileID: 11400000, guid: c09a9c0ec56d20a4aa00f1c491ca1015, type: 2}
+  - {fileID: 11400000, guid: 007cd4e3b53d3584182b32e48f0fbd24, type: 2}
+  - {fileID: 11400000, guid: 7c73bb714cb2e974dbd8f3e3a8ea4fc1, type: 2}
+  - {fileID: 11400000, guid: 804e798a35aa97747bcaeb6c083783b8, type: 2}
+  - {fileID: 11400000, guid: 9375d8474b282b94492fbd42fbaee19a, type: 2}
+  - {fileID: 11400000, guid: aa7f1c82c61c1a448a142c5a690adc17, type: 2}
+  allBoostersSprite: {fileID: 21300000, guid: a9b6dfc5dd3c1584087bd1a2d951fede, type: 3}
