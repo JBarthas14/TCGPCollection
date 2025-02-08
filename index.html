@@ -24,11 +24,12 @@
         document.body.style.textAlign = "left";
       }
 
+      let basePath = window.location.pathname.replace(/\/[^/]*$/, '');
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "./Build/Build.data",
-        frameworkUrl: "./Build/Build.framework.js",
-        codeUrl: "./Build/Build.wasm",
+        dataUrl: basePath + "/Build/Build.data",
+        frameworkUrl: basePath + "/Build/Build.framework.js",
+        codeUrl: basePath + "/Build/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Steelz's one",
         productName: "TCGP Collection",
