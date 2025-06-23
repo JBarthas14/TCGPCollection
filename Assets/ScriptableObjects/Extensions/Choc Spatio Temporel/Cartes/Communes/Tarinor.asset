@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cdf084bf6e7774c9aef33e0c6c1a18, type: 3}
+  m_Name: Tarinor
+  m_EditorClassIdentifier: 
+  id: 86
+  sprite: {fileID: 8062085636629719596, guid: f419a0536a169a24eb94e3ac9baa609c, type: 3}
+  rarity: 0
+  booster: {fileID: 0}
+  extension: {fileID: 0}

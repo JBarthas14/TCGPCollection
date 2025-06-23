@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 285
   sprite: {fileID: -2527653071661553181, guid: 9b1df2772d62ea042bb9c2080e7a2295, type: 3}
-  rarity: 7
+  rarity: 9
   booster: {fileID: 0}
   extension: {fileID: 11400000, guid: c0beefdca95ff6d4a9a84fe221936905, type: 2}

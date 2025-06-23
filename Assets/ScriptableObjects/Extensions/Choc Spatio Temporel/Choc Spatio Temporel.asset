@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78224869b7397494c9ff3e2539e7d69e, type: 3}
+  m_Name: Choc Spatio Temporel
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 7867583720216305006, guid: 57711fbc255834a4eb41a7f6dadb1b6c, type: 3}
+  boosters:
+  - {fileID: 11400000, guid: 60911e223926db94d816f1f7f6628505, type: 2}
+  - {fileID: 11400000, guid: 7737555d25aacf14abea8293870441c0, type: 2}
+  cartesCommunes:
+  - {fileID: 11400000, guid: c88f97ca0705f5940a8880af85f8d786, type: 2}
+  - {fileID: 11400000, guid: afa46b9b2e3a9944b80a677b921ff861, type: 2}
+  - {fileID: 11400000, guid: fdbba7ed107880743bd2a93bba24c6ed, type: 2}
+  - {fileID: 11400000, guid: 0bacb10c638b5504c96579983ae9b800, type: 2}
+  - {fileID: 11400000, guid: 593803bffec6c4f40911ac2c16b32610, type: 2}
+  - {fileID: 11400000, guid: 8938d25bb96687f4da7b074ce3dc6fc0, type: 2}
+  - {fileID: 11400000, guid: a704911fd2a8d2440a116354d53fd68b, type: 2}
+  - {fileID: 11400000, guid: eb12761fb7992c74982c66d32918ec14, type: 2}
+  - {fileID: 11400000, guid: d32f1a7c59ec2f6439edcad7261e6cb9, type: 2}
+  - {fileID: 11400000, guid: 477a80e4b26e8cb4d965e15dfca83270, type: 2}
+  - {fileID: 11400000, guid: 62b21283ec702b54889d9ed5acf53bb3, type: 2}
+  - {fileID: 11400000, guid: 8fbb260969bf10041bfc894f00b4e2c7, type: 2}
+  - {fileID: 11400000, guid: 73583060e90c3d748ac0ba8523ace68b, type: 2}
+  - {fileID: 11400000, guid: b7c1389eea7e8ef48abbdac45fa17054, type: 2}
+  - {fileID: 11400000, guid: 6c8927b083819ed459dc4e2bfe35a78b, type: 2}
+  - {fileID: 11400000, guid: 0a1140cdc2e36b9409115ff4a618533b, type: 2}
+  - {fileID: 11400000, guid: 36af30cdadf5e3e419267e1f00af68e5, type: 2}
+  - {fileID: 11400000, guid: 9674de1d4231c9c4db405136049ba496, type: 2}
+  - {fileID: 11400000, guid: 70477a892bfc42840ab8fa80b4daa3d5, type: 2}
+  - {fileID: 11400000, guid: a0f33845127eb1f4ea740c5bbc4d980e, type: 2}
+  - {fileID: 11400000, guid: 5ad4f674b93f7624a8c0a501d9e771de, type: 2}
+  - {fileID: 11400000, guid: 0888eb8c757289946b0dbf7600e6b947, type: 2}
+  - {fileID: 11400000, guid: 508c214c9af0f3544b22e56d9d1d2622, type: 2}
+  - {fileID: 11400000, guid: 99e58e81f725ef4488a47aed68aee912, type: 2}
+  - {fileID: 11400000, guid: 10e68f46975d4064485cb44ef61e99df, type: 2}
+  - {fileID: 11400000, guid: da19e421e79a1f24fbd8c2776805c5c1, type: 2}
+  - {fileID: 11400000, guid: f96a3b929a51c9147b030a2cb88b7198, type: 2}
+  - {fileID: 11400000, guid: e1639ad0ab56bfb49871e4d7e3ca7a2c, type: 2}
+  - {fileID: 11400000, guid: 958a75acc0499c644926be2f0e1fb36a, type: 2}
+  - {fileID: 11400000, guid: 85e8ca86c7e3b734a9479cfb5674d415, type: 2}
+  - {fileID: 11400000, guid: bd4850b4d8624694f9c7b46f4e5a15d6, type: 2}
+  - {fileID: 11400000, guid: eb0445daf49209449be7416912147c0d, type: 2}
+  - {fileID: 11400000, guid: 479307143e8173843a531eb29b136c9b, type: 2}
+  - {fileID: 11400000, guid: 090676389ec9c4841b238a5e31bb6dea, type: 2}
+  - {fileID: 11400000, guid: 8e93264c76ade734b9f6c3f475c0c299, type: 2}
+  - {fileID: 11400000, guid: 3b411020121858747a2063fbabfc8b4e, type: 2}
+  - {fileID: 11400000, guid: 2ff565435f9d57c43beb8d8ccd3b7027, type: 2}
+  - {fileID: 11400000, guid: dcbd40e2e59505345a75bca056a4b616, type: 2}
+  - {fileID: 11400000, guid: abf5a457371fdf642b530e6114c2c8df, type: 2}
+  - {fileID: 11400000, guid: d68171cfd4ed98042ad326b919dd0e75, type: 2}
+  - {fileID: 11400000, guid: e5b53bbb7496b4a46af592683f242b87, type: 2}
+  - {fileID: 11400000, guid: 183640d7ec688574d8b4f809e5fd5efc, type: 2}
+  - {fileID: 11400000, guid: 9396fdac3207e634cbbfd77bc2bb8c61, type: 2}
+  - {fileID: 11400000, guid: 58a2a02fc005f1c42ac2c0220d609e0f, type: 2}
+  - {fileID: 11400000, guid: 7de5d6b334877314a86517ef25ce6072, type: 2}
+  allBoostersSprite: {fileID: 21300000, guid: f864375253293074e9509f253b66c1d8, type: 3}

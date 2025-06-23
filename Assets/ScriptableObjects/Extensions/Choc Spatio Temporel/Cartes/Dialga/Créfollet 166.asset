@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cdf084bf6e7774c9aef33e0c6c1a18, type: 3}
+  m_Name: "Cr\xE9follet 166"
+  m_EditorClassIdentifier: 
+  id: 166
+  sprite: {fileID: 308903831610765874, guid: 5323fef213aa57e43a9c19dc39bb1471, type: 3}
+  rarity: 4
+  booster: {fileID: 11400000, guid: 60911e223926db94d816f1f7f6628505, type: 2}
+  extension: {fileID: 0}

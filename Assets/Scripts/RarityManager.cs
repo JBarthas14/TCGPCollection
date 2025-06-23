@@ -11,6 +11,8 @@ public class RarityManager
         OneStar,
         TwoStars,
         Immersive,
+        OneShiny,
+        TwoShinys,
         Gold
     }
 }

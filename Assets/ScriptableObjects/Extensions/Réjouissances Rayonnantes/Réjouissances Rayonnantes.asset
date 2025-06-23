@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78224869b7397494c9ff3e2539e7d69e, type: 3}
+  m_Name: "R\xE9jouissances Rayonnantes"
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 530b5508d744f0a448d9120824007408, type: 3}
+  boosters:
+  - {fileID: 11400000, guid: 2168971bdf0d56a49862db313ec1c8dd, type: 2}
+  cartesCommunes: []
+  allBoostersSprite: {fileID: 0}

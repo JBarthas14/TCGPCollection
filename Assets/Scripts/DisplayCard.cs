@@ -1,6 +1,8 @@
 using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using TMPro;
+using System;
 
 public class DisplayCard : MonoBehaviour, IPointerClickHandler
 {
@@ -12,11 +14,14 @@ public class DisplayCard : MonoBehaviour, IPointerClickHandler
     public Extension extension;
 
     public StatsManager statsManager;
+    Manager manager;
 
+    public static event Action OnCardClicked;
 
     void Start()
     {
         statsManager = FindAnyObjectByType<StatsManager>();
+        manager = FindAnyObjectByType<Manager>();
         GetComponent<Image>().sprite = sprite;
         if (booster != null)
         {
@@ -25,7 +30,16 @@ public class DisplayCard : MonoBehaviour, IPointerClickHandler
         else
         {
             transform.GetChild(0).GetComponent<Image>().sprite = extension.allBoostersSprite;
+            if (extension.boosters.Count > 2)
+            {
+                transform.GetChild(0).transform.localScale = new Vector3(2, 2, 1);
+            }
+            else
+            {
+                transform.GetChild(0).transform.localScale = new Vector3(2, 1, 1);
+            }
         }
+        transform.GetChild(1).GetComponent<TMP_Text>().text = id.ToString();
         RefreshColor();
     }
 
@@ -45,6 +59,14 @@ public class DisplayCard : MonoBehaviour, IPointerClickHandler
     {
         isObtained = !isObtained;
         statsManager.AddCardToMissingList(this);
+        SaveDatas.Instance.SaveCard(this, isObtained);
         RefreshColor();
+        if (!manager.toggleIsObtained.isOn && isObtained)
+        {
+            gameObject.SetActive(false);
+        }
+
+        OnCardClicked?.Invoke();
+
     }
 }

@@ -15,7 +15,12 @@ public class ButtonExtensionStats : MonoBehaviour
 
     private void OnClick()
     {
-        statsManager.CalculStats(extension);
+        foreach (Transform child in statsUI.statsHolder.transform)
+        {
+            Destroy(child.gameObject);
+        }
+        statsManager.CalculStats(extension, statsUI.secretsState);
         statsUI.toggleSecret.gameObject.SetActive(true);
+        statsUI.currentExtension = extension;
     }
 }

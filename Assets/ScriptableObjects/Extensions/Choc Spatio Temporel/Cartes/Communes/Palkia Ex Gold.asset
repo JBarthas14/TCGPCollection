@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cdf084bf6e7774c9aef33e0c6c1a18, type: 3}
+  m_Name: Palkia Ex Gold
+  m_EditorClassIdentifier: 
+  id: 206
+  sprite: {fileID: -4865264450956280419, guid: cf9536ca2c59332408a1fb5b9fc6685d, type: 3}
+  rarity: 9
+  booster: {fileID: 0}
+  extension: {fileID: 11400000, guid: 2a67c86f8f8b85d449c23901e1fe622d, type: 2}

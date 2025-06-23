@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cdf084bf6e7774c9aef33e0c6c1a18, type: 3}
+  m_Name: Blizzi
+  m_EditorClassIdentifier: 
+  id: 44
+  sprite: {fileID: -8679377159899328195, guid: d5e39c9d42b0cd74a841b38b46e3b0ad, type: 3}
+  rarity: 0
+  booster: {fileID: 0}
+  extension: {fileID: 0}
